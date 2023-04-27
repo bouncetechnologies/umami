@@ -6,14 +6,11 @@ import ErrorMessage from 'components/common/ErrorMessage';
 import useFetch from 'hooks/useFetch';
 import useDateRange from 'hooks/useDateRange';
 import usePageQuery from 'hooks/usePageQuery';
-import useShareToken from 'hooks/useShareToken';
 import { formatShortTime, formatNumber, formatLongNumber } from 'lib/format';
-import { TOKEN_HEADER } from 'lib/constants';
 import MetricCard from './MetricCard';
 import styles from './MetricsBar.module.css';
 
 export default function MetricsBar({ websiteId, className }) {
-  const shareToken = useShareToken();
   const [dateRange] = useDateRange(websiteId);
   const { startDate, endDate, modified } = dateRange;
   const [format, setFormat] = useState(true);
@@ -22,7 +19,7 @@ export default function MetricsBar({ websiteId, className }) {
   } = usePageQuery();
 
   const { data, error, loading } = useFetch(
-    `/website/${websiteId}/stats`,
+    `/websites/${websiteId}/stats`,
     {
       params: {
         start_at: +startDate,
@@ -34,7 +31,6 @@ export default function MetricsBar({ websiteId, className }) {
         device,
         country,
       },
-      headers: { [TOKEN_HEADER]: shareToken?.token },
     },
     [modified, url, referrer, os, browser, device, country],
   );

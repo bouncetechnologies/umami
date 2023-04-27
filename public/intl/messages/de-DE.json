@@ -29,12 +29,6 @@
       "value": "Alle"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Alle Ereignisse"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -176,7 +170,7 @@
   "label.language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Sprache"
     }
   ],
   "label.last-days": [
@@ -245,6 +239,12 @@
     {
       "type": 0,
       "value": "Neues Passwort"
+    }
+  ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "Keine"
     }
   ],
   "label.owner": [
@@ -334,7 +334,7 @@
   "label.theme": [
     {
       "type": 0,
-      "value": "Theme"
+      "value": "Thema"
     }
   ],
   "label.this-month": [
@@ -395,6 +395,12 @@
     {
       "type": 0,
       "value": "Webseiten"
+    }
+  ],
+  "label.yesterday": [
+    {
+      "type": 0,
+      "value": "Gestern"
     }
   ],
   "message.active-users": [
@@ -469,6 +475,12 @@
     {
       "type": 0,
       "value": "Alle zugehörigen Daten werden ebenfalls gelöscht."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Dashboard bearbeiten"
     }
   ],
   "message.failure": [
@@ -704,7 +716,7 @@
   "metrics.device.mobile": [
     {
       "type": 0,
-      "value": "Mobiltelefon"
+      "value": "Handy"
     }
   ],
   "metrics.device.tablet": [
@@ -729,12 +741,6 @@
     {
       "type": 0,
       "value": "Kombiniert"
-    }
-  ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Nur diese Domain"
     }
   ],
   "metrics.filter.raw": [
@@ -767,10 +773,22 @@
       "value": "Seiten"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Abfrageparameter"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
       "value": "Referrer"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Bildschirmauflösungen"
     }
   ],
   "metrics.unique-visitors": [

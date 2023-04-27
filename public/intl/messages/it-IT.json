@@ -29,12 +29,6 @@
       "value": "Tutto"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Tutti gli eventi"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -80,7 +74,7 @@
   "label.current-password": [
     {
       "type": 0,
-      "value": "Password corrente"
+      "value": "Password attuale"
     }
   ],
   "label.custom-range": [
@@ -176,7 +170,7 @@
   "label.language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Lingua"
     }
   ],
   "label.last-days": [
@@ -245,6 +239,12 @@
     {
       "type": 0,
       "value": "Nuova password"
+    }
+  ],
+  "label.none": [
+    {
+      "type": 0,
+      "value": "None"
     }
   ],
   "label.owner": [
@@ -334,7 +334,7 @@
   "label.theme": [
     {
       "type": 0,
-      "value": "Theme"
+      "value": "Tema"
     }
   ],
   "label.this-month": [
@@ -397,6 +397,12 @@
       "value": "Siti web"
     }
   ],
+  "label.yesterday": [
+    {
+      "type": 0,
+      "value": "Ieri"
+    }
+  ],
   "message.active-users": [
     {
       "type": 1,
@@ -452,7 +458,7 @@
   "message.confirm-reset": [
     {
       "type": 0,
-      "value": "Are your sure you want to reset "
+      "value": "Sei sicuro di voler azzerare le statistiche di "
     },
     {
       "type": 1,
@@ -460,7 +466,7 @@
     },
     {
       "type": 0,
-      "value": "'s statistics?"
+      "value": "?"
     }
   ],
   "message.copied": [
@@ -473,6 +479,12 @@
     {
       "type": 0,
       "value": "Saranno eliminati anche tutti i dati associati."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -542,7 +554,7 @@
   "message.new-version-available": [
     {
       "type": 0,
-      "value": "Una nuova versione umami "
+      "value": "Una nuova versione "
     },
     {
       "type": 1,
@@ -550,7 +562,7 @@
     },
     {
       "type": 0,
-      "value": " è disponibile!"
+      "value": " di umami è disponibile!"
     }
   ],
   "message.no-data-available": [
@@ -735,12 +747,6 @@
       "value": "Aggregati"
     }
   ],
-  "metrics.filter.domain-only": [
-    {
-      "type": 0,
-      "value": "Solo dominio"
-    }
-  ],
   "metrics.filter.raw": [
     {
       "type": 0,
@@ -771,10 +777,22 @@
       "value": "Pagine"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
-      "value": "Referr"
+      "value": "Referrers"
+    }
+  ],
+  "metrics.screens": [
+    {
+      "type": 0,
+      "value": "Screens"
     }
   ],
   "metrics.unique-visitors": [
